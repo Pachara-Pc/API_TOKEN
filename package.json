@@ -1,0 +1,23 @@
+{
+  "name": "api-token",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "serve": "nodemon app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@aws-sdk/client-dynamodb": "^3.39.0",
+    "aws-sdk": "^2.1018.0",
+    "axios": "^0.24.0",
+    "base62": "^2.0.1",
+    "crc-32": "^1.2.0",
+    "nanoexpress": "^5.1.2",
+    "nodemon": "^2.0.14",
+    "pino": "^7.1.0",
+    "rand-token": "^1.0.1"
+  }
+}
